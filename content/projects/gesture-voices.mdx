@@ -1,0 +1,26 @@
+---
+title: "Gesture Voices"
+slug: "gesture-voices"
+description: "Real-time gesture recognition system to assist deaf-mute users, converting hand gestures into speech/text with 84% accuracy"
+tags: ["Python", "NumPy", "Flask", "OpenCV", "TensorFlow", "ML", "Accessibility"]
+date: "2024-11-01"
+featured: true
+github: ""
+live: ""
+---
+
+## Overview
+
+Gesture Voices is a real-time gesture recognition system built to assist deaf-mute users in communication. It converts hand gestures into speech and text, enabling seamless, accessible interaction without requiring any specialized hardware.
+
+## The Build
+
+The system uses **OpenCV** for real-time video capture and hand landmark detection, feeding frames into a **TensorFlow** model trained to classify gestures with **84% accuracy**. Recognized gestures are mapped to text and converted to speech, creating a fluid communication loop.
+
+The backend is powered by **Flask**, exposing the inference pipeline as an API. **NumPy** handles the numerical processing for landmark normalization and feature extraction.
+
+## Key Outcomes
+
+- 84% gesture classification accuracy on real-time video input
+- Improved accessibility for deaf-mute users through seamless gesture-to-speech conversion
+- Trained and integrated ML models end-to-end, from data preprocessing to deployment

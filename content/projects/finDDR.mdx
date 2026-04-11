@@ -1,0 +1,26 @@
+---
+title: "FinDDR"
+slug: "finDDR"
+description: "AI-powered financial research agent that analyzes complex financial reports using RAG and hierarchical chunking for structured, analyst-style report generation"
+tags: ["Python", "LangChain", "PyTorch", "RAG", "LLMs", "NLP"]
+date: "2025-12-01"
+featured: false
+github: ""
+live: ""
+---
+
+## Overview
+
+FinDDR (Financial Document Deep Research) is an AI-powered research agent designed to analyze complex financial reports. It uses RAG with hierarchical chunking to extract structured insights and generate analyst-style reports with evidence grounding.
+
+## The Build
+
+The system ingests financial documents — earnings reports, 10-Ks, analyst filings — and processes them through a hierarchical chunking strategy that preserves document structure. **LangChain** orchestrates the multi-step reasoning pipeline, while **PyTorch** powers the underlying embedding and inference models.
+
+Queries trigger a retrieval pass over the indexed document chunks, followed by a reasoning chain that synthesizes findings into structured, grounded reports. The agent supports multi-step reasoning, allowing it to cross-reference data points across sections of a document.
+
+## Key Outcomes
+
+- Multi-step reasoning for structured, analyst-style report generation with evidence grounding
+- Enhanced document comprehension through hierarchical chunking
+- Automated financial analysis workflows for improved decision-making

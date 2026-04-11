@@ -1,0 +1,26 @@
+---
+title: "RepoGenie"
+slug: "repogenie"
+description: "RAG-based system for real-time understanding and querying of GitHub repositories using embeddings, vector search, and context-aware LLM responses"
+tags: ["Next.js", "Pinecone DB", "RAG", "LLMs", "TypeScript", "Embeddings"]
+date: "2026-03-01"
+featured: true
+github: ""
+live: "https://repo-ginie.vercel.app/"
+---
+
+## Overview
+
+RepoGenie is a RAG-based system that enables real-time understanding and querying of GitHub repositories. Instead of manually navigating codebases, developers can ask natural language questions and get accurate, context-aware answers grounded in the actual code.
+
+## The Build
+
+The pipeline starts with ingesting a GitHub repository — files are chunked, embedded, and stored in **Pinecone DB** for fast vector similarity search. When a user submits a query, the system retrieves the most relevant code chunks and passes them as context to an LLM, which generates precise, grounded responses.
+
+The frontend is built with **Next.js**, providing a clean interface for repository input and conversational querying. The embedding and retrieval pipeline is designed to handle large repos efficiently, reducing exploration time and improving developer productivity.
+
+## Key Outcomes
+
+- End-to-end pipeline: embedding generation → vector search → context-aware LLM responses
+- Significantly reduced repository exploration time for developers
+- Improved code insight accuracy through retrieval-augmented generation
