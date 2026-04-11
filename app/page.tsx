@@ -50,7 +50,7 @@ const education = [
     year: "2023 – 2027",
     degree: "B.Tech — Computer Science & Engineering",
     institution: "Galgotias University",
-    grade: "CGPA: 9.3 (Till 5th Sem.)",
+    grade: "CGPA: 9.3",
   },
   {
     year: "2021 – 2022",
